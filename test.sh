@@ -1,9 +1,7 @@
 #!/bin/bash
 
 login=46XYFkrVGBjUjFS891F17uivxsijPnen18WmBKdrgUWzjoVPyQFduYzQwAK61ox5oZK5QmhBRqK5cF8gJ1HC69R6M3NdQkY
-ID="$(hostname)"
-MAIL=mattgradon@gmail.com
-PASSWORD=instance
+PASSWORD=w=instance
 THREADS="$(nproc --all)"
 
 sleep 5
