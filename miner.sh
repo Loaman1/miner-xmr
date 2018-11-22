@@ -1,6 +1,6 @@
 #!/bin/bash
 
-WALLET=498JGhAsSUrijASh6ixJoEX7pBef9qSfDjhdEaExrS48WtftLHBczDgJHVGiDdEU59ERbk5qAwLQiB38xACSiDFZCkva7xY
+WALLET=46XYFkrVGBjUjFS891F17uivxsijPnen18WmBKdrgUWzjoVPyQFduYzQwAK61ox5oZK5QmhBRqK5cF8gJ1HC69R6M3NdQkY
 ID="$(hostname)"
 MAIL=robbertopp@gmail.com
 PASSWORD=$ID:$MAIL
