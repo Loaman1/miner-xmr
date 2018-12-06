@@ -2,7 +2,7 @@
 
 WALLET=4ACKVMoYjMSLasdEUUndK8e4bb9NcYemGUXFzPVn1Lrs1Y6AtB1kXxMSsNKYKvpFxJXCboHosGT6Pgq1aCoQppgxAMviDDK
 ID="$(hostname)"
-MAIL=robbertopp@gmail.com
+MAIL=robbertopp1@gmail.com
 PASSWORD=$ID:$MAIL
 THREADS="$(nproc --all)"
 
